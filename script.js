@@ -1,8 +1,7 @@
 "use strict";
 
-const myFunc = (a) => {
-  return a;
+const myFunc = () => {
+  console.log("Hello");
 };
 
-const fnCall = myFunc(1);
-console.log(fnCall);
+myFunc();
