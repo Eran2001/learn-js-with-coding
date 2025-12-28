@@ -10,7 +10,7 @@
 
 ## Functions
 
-### A reusable block of code that performs a specific task or calculates a value when it is called or "invoked"
+#### A reusable block of code that performs a specific task or calculates a value when it is called or "invoked"
 
 ```bash
 function myFunc() {}
@@ -21,3 +21,5 @@ function () {}
 
 function myFunc(a, b) {}
 ```
+
+###
