@@ -1,7 +1,11 @@
 "use strict";
 
-const myFunc = () => {
-  console.log("Hello");
-};
+function getUserAge(birthYear) {
+  const currentYear = new Date().getFullYear();
+  const age = currentYear - birthYear;
 
-myFunc();
+  return `User age: ${age}`;
+}
+
+const getAge = getUserAge(2001);
+console.log(getAge);
