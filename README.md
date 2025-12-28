@@ -26,15 +26,15 @@ function myFunc(a, b) {}
 
 #### Syntax
 
-#####refers to how a function is written in JavaScript, either as a
-#####function declaration using the function keyword or as a function expression assigned to a variable.
+Refers to how a function is written in JavaScript, either as a
+function declaration using the function keyword or as a function expression assigned to a variable.
 
 #### Availability
 
-#####means when the function can be used in the code—function declarations can be called
-#####anywhere in their scope, while function expressions can only be called after they are defined.
+Means when the function can be used in the code—function declarations can be called
+anywhere in their scope, while function expressions can only be called after they are defined.
 
 #### Hoisting
 
-#####is JavaScript’s behavior of moving declarations to the top of their scope before execution;
-#####function declarations are fully hoisted, but in function expressions only the variable name is hoisted, not the function itself.
+Is JavaScript’s behavior of moving declarations to the top of their scope before execution;
+function declarations are fully hoisted, but in function expressions only the variable name is hoisted, not the function itself.
