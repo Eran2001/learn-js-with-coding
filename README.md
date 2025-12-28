@@ -8,6 +8,10 @@
 "use strict"
 ```
 
+## Statements vs Expressions
+
+#### An expression evaluates to a value, while a statement performs an action and does not, by itself, produce a value that can be used elsewhere in the code
+
 ## Functions
 
 #### A reusable block of code that performs a specific task or calculates a value when it is called or "invoked"
