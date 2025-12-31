@@ -1,6 +1,5 @@
 "use strict";
 
-// fnction for get age
 function getUserAge(birthYear) {
   const currentYear = new Date().getFullYear();
   const age = currentYear - birthYear;
