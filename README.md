@@ -42,3 +42,7 @@ anywhere in their scope, while function expressions can only be called after the
 
 Is JavaScript’s behavior of moving declarations to the top of their scope before execution;
 function declarations are fully hoisted, but in function expressions only the variable name is hoisted, not the function itself.
+
+## ✅Arrow Functions
+
+####
