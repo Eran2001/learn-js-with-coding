@@ -1,5 +1,9 @@
 # JavaScript
 
+## What is JavaScript?
+
+#### A High-Level, Multi-Paradigm, Object-Oriented, Interpreted, Single-Threaded and Garbage-Collected Programming Language.
+
 ## ✅Strict Mode
 
 #### Use strict mode for safe javascript coding, it will show proper error messages.
