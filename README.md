@@ -4,6 +4,8 @@
 
 #### A High-Level, Multi-Paradigm, Object-Oriented, Interpreted, Single-Threaded(executes commands sequentially, First-Class-Functions(treated as variables) one at a time) and Garbage-Collected Programming Language.
 
+#### JavaScript is best described as a just-in-time (JIT) compiled language, meaning it uses a hybrid approach that combines aspects of both interpretation and compilation. It is not purely one or the other.
+
 ## ✅Strict Mode
 
 #### Use strict mode for safe javascript coding, it will show proper error messages.
