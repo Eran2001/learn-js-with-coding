@@ -2,7 +2,7 @@
 
 ## What is JavaScript?
 
-#### A High-Level, Multi-Paradigm, Object-Oriented, Interpreted, Single-Threaded(executes commands sequentially, one at a time) and Garbage-Collected Programming Language.
+#### A High-Level, Multi-Paradigm, Object-Oriented, Interpreted, Single-Threaded(executes commands sequentially, First-Class-Functions(treated as variables) one at a time) and Garbage-Collected Programming Language.
 
 ## ✅Strict Mode
 
