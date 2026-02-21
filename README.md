@@ -52,3 +52,25 @@ function declarations are fully hoisted, but in function expressions only the va
 ## ✅Arrow Functions
 
 ####
+
+
+## ✅Array Destructuring
+
+#### Is an ES6 (ECMAScript 2015) feature that allows you to extract values from an array and assign them to distinct variables in a concise and readable way
+
+```bash
+const fruits = ['Banana', 'Orange', 'Apple', 'Mango'];
+const [fruit1, fruit2, fruit3] = fruits;
+
+console.log(fruit1); // Output: Banana
+console.log(fruit2); // Output: Orange
+console.log(fruit3); // Output: Apple
+
+// Rest Syntax (...)
+const numbers = [10, 20, 30, 40, 50];
+const [a, b, ...rest] = numbers;
+
+console.log(a);    // Output: 10
+console.log(b);    // Output: 20
+console.log(rest); // Output: [30, 40, 50]
+```
