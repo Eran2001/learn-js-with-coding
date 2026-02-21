@@ -53,7 +53,6 @@ function declarations are fully hoisted, but in function expressions only the va
 
 ####
 
-
 ## ✅Array Destructuring
 
 #### Is an ES6 (ECMAScript 2015) feature that allows you to extract values from an array and assign them to distinct variables in a concise and readable way
@@ -73,4 +72,27 @@ const [a, b, ...rest] = numbers;
 console.log(a);    // Output: 10
 console.log(b);    // Output: 20
 console.log(rest); // Output: [30, 40, 50]
+```
+
+## ✅Objects Destructuring
+
+#### Is an ES6+ JavaScript feature that allows you to unpack properties from objects and bind them to variables in a concise and readable way
+
+```bash
+const user = {
+  id: 42,
+  isVerified: true
+};
+
+const { id, isVerified } = user;
+
+console.log(id); // 42
+console.log(isVerified); // true
+
+// Rest Syntax (...)
+const person = { name: "Sarah", country: "Nigeria", job: "Developer" };
+const { name, ...others } = person;
+
+console.log(name); // Sarah
+console.log(others); // { country: "Nigeria", job: "Developer" }
 ```
