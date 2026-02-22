@@ -96,3 +96,16 @@ const { name, ...others } = person;
 console.log(name); // Sarah
 console.log(others); // { country: "Nigeria", job: "Developer" }
 ```
+
+## ✅Spread Operator
+
+#### Is a powerful feature that allows an iterable (like an array or string) to be expanded into individual elements
+
+```bash
+const original = { name: "Alice", age: 30 };
+const copy = { ...original };
+
+const arr1 = [1, 2, 3];
+const arr2 = [4, 5, 6];
+const mergedArray = [...arr1, ...arr2]; // [1, 2, 3, 4, 5, 6]
+```
